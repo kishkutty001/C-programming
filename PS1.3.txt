@@ -1,0 +1,17 @@
+#include <stdio.h>
+ 
+int main () {
+
+   int a=20;
+
+   do {
+      printf("%d\n",a);
+      a++;
+   }
+   while( a<= 20);
+ 
+   return 0;
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
