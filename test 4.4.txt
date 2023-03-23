@@ -14,3 +14,7 @@ int main()
     }
     return 0;
 }
+
+OUTPUT:
+[ 1 5
+  2 3 ]
