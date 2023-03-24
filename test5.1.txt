@@ -1,0 +1,33 @@
+#include <stdio.h>
+int main()
+{
+    char str[50];
+    char *p;
+    int  vCount=0,cCount=0;
+
+    printf("Enter any word: ");
+    scanf("%s",&str[50]);
+    p =str;
+    
+    
+    if (*p=='a' || *p=='e' || *p=='i' || *p=='o' || *p=='u')
+    
+        { if (*p=='A' || *p=='E' || *p=='I' || *p=='O' || *p=='U')
+         vCount++;
+        
+        else
+          {
+    
+           cCount++;
+          
+        
+        
+    
+    
+    
+           printf("Number of Vowels in a word: %d\n",vCount);
+        }
+             printf("Number of Consonants in a word: %d",cCount);
+          }
+    return 0;
+}
